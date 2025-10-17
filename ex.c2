@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	float kmh;
+	printf("Qual a velocidade em Km/h: ");
+	scanf("%f", &kmh);
+
+	float ms = kmh/3.6;
+
+	printf("Essa é sua velocidade em m/s: %.2f\n", ms);
+	return  0;
+}

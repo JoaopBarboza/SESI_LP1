@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float preço;
+    float aumento;
+    
+    printf("Digite o preço antigo: ");
+    scanf("%f", &preço);
+
+    printf("Digite o percentual de aumento: ");
+    scanf("%f", &aumento);
+    
+    float valoraumento = preço * aumento /100;
+    float preçofinal = preço + valoraumento;
+    
+    printf("Valor de aumento: %f\n novo valor: %f",valoraumento,preçofinal);
+    
+    return 0;
+    
+}
